@@ -1,0 +1,72 @@
+/* Start of Media Query of Common Styling */
+
+/* start small screen */
+@media screen and (max-width:576px) {
+    .caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .caption h3::after {
+        font-size: 1.7rem;
+    }
+
+    #counter-section {
+        height: 1300px;
+    }
+
+    #contact {
+        height: 1300px;
+    }
+}
+
+/* end small screen */
+/* start medium screen */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .caption h1 {
+        font-size: 3rem;
+    }
+
+    .caption h3::after {
+        font-size: 2rem;
+    }
+
+    #counter-section {
+        height: 1300px;
+    }
+}
+
+/* end medium screen */
+/* start large screen */
+@media screen and (min-width:769px) and (max-width:992px) {
+     .caption h1 {
+        font-size: 3.5rem;
+    }
+
+    .caption h3::after {
+        font-size: 2.2rem;
+    }
+
+    #counter-section {
+        height: 700px;
+    }
+}
+
+/* end large screen */
+/* start extra large screen */
+@media screen and (min-width:993px) and (max-width:1200px) {
+.caption h1 {
+        font-size: 4rem;
+    }
+}
+
+/* end axtra large screen */
+/* start extra extra large screen */
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .caption h1 {
+        font-size: 4.5rem;
+    }
+}
+
+/* end extra extra large screen */
+
+/* end media queres*/

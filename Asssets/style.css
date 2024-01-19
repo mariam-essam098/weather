@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+.navbar {
+    background-color: #1E202B;
+}
+
+.navbar .container .logo,
+.collapse a {
+
+    color: white !important;
+}
+
+.navbar-brand {
+    display: flex;
+    width: 30%;
+    margin: auto;
+
+}
+
+.logo {
+    padding-left: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+.smallText {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.nav-link {
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    color: #009ad8;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+
+}
+
+.nav-link+.nav-link {
+    margin-left: 10px;
+}
+
+
+.bigContainer {
+    background-image: url(../images/r125_166_1496_1080_w1620_h1080_fmax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-main-color {
+    background-color: rgba(30, 32, 43, 0.905);
+}
+
+.bg-sec-color {
+    background-color: #262936d1;
+}
+
+.smallIcons {
+    width: 20px;
+    height: 30px;
+}
+
+.text-light-blue {
+    color: #8ea5ff;
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.socialLinks a i {
+    width: 1rem;
+    height: 1rem;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.socialLinks a {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    margin: 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
